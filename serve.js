@@ -1,6 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const conect = "mongodb+srv://jpauloxpo:052120@tapaburacos.zwl1r.mongodb.net/?retryWrites=true&w=majority&appName=tapaBuracos"
+const conect = "mongodb+srv://jpauloxpo:12345678@tapaburacos.zwl1r.mongodb.net/?retryWrites=true&w=majority&appName=tapaBuracos"
 //const cors = require('cors');
 
 const authRoutes = require('./routes/authRoutes');
