@@ -3,7 +3,7 @@
 "builds": [
     {
         "src": "./serve.js",
-        "user": "@vercel/node"
+        "use": "@vercel/node"
     }
 ],
 "routes": [
