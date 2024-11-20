@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const ReportSchema = new mongoose.Schema({
-  autor: { type: String, required: true },
+  autor: { type: String, },
   endereco: { type: String, required: true },
   imagem: { type: String },
   descricao: { type: String, required: true },

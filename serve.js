@@ -1,8 +1,10 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+const dbUser = process.env.DB_USER;
+const dbPassword = process.env.DB_PASS;
 const conect =
-    `mongodb+srv://${DB_USER}:${DB_PASS}@tapaburacos.zwl1r.mongodb.net/?retryWrites=true&w=majority&appName=tapaBuracos`;
+    `mongodb+srv://${dbUser}:${dbPassword}@tapaburacos.zwl1r.mongodb.net/?retryWrites=true&w=majority&appName=tapaBuracos`;
 const cors = require("cors");
 
 const authRoutes = require("./routes/authRoutes");
