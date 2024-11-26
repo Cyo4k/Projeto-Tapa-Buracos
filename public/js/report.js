@@ -7,7 +7,7 @@ async function sendReport() {
     const description = document.getElementById('description').value;
 
     try {
-        const response = await fetch('http://localhost:5000/reports', {
+        const response = await fetch('http://localhost:3000/reports', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

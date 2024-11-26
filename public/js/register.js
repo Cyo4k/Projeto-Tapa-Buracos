@@ -4,7 +4,7 @@ async function register() {
     const password = document.getElementById('password').value;
 
     try {
-        const response = await fetch('http://localhost:5000/auth/register', {
+        const response = await fetch('http://localhost:3000/auth/register', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ nome: name, email, senha: password })

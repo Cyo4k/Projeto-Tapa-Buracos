@@ -3,7 +3,7 @@ async function fetchReports() {
     if (!token) return window.location.href = 'login.html';
 
     try {
-        const response = await fetch('http://localhost:5000/reports', {
+        const response = await fetch('http://localhost:3000/reports', {
             headers: { 'Authorization': `Bearer ${token}` }
         });
         const reports = await response.json();
